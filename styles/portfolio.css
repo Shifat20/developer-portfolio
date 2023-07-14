@@ -2,7 +2,9 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-
+.header{
+    background: #FFF8F3;
+}
 .button-primary{
     border-radius: 5px;
     background: #FD6E0A;
@@ -17,6 +19,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
+
 }
 
 .nav-title{
@@ -42,4 +46,13 @@ nav li{
 nav a{
     text-decoration: none;
     color: 181818;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pix{
+    width: 500px;
 }
